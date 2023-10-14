@@ -1,0 +1,710 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  background-image: none;
+  margin: 0;
+  padding-top: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+h2 {
+  color: #3c0;
+  text-align: left;
+  margin: 10px 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+h3 {
+  color: #745785;
+  text-align: center;
+  margin: 0 0 16px;
+  padding-top: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h5 {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+h6 {
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+p {
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px rgba(0, 0, 0, .09);
+  background-color: #000;
+  background-image: linear-gradient(#ff8d5e, #d7624b);
+  border-radius: 5px;
+  padding: 18px 21px;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-block;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .49), 0 2px #823c2e, 0 3px 12px rgba(0, 0, 0, .49);
+}
+
+.button:hover {
+  text-shadow: 0 2px rgba(0, 0, 0, .09);
+  background-image: linear-gradient(#ff9d73, #d7624b);
+  transition: all .2s;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .49), 0 2px #823c2e, 0 3px 12px rgba(0, 0, 0, .49);
+}
+
+.section {
+  border-bottom: 1px solid rgba(0, 0, 0, .09);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: static;
+}
+
+.section.hero {
+  background-image: url('../images/sfondo_4x4_sfocato.jpg');
+  background-position: 0 48%;
+  background-size: cover;
+  padding-bottom: 0;
+}
+
+.section.white {
+  text-align: center;
+  border-top: 0 solid gray;
+  border-bottom-style: none;
+  border-bottom-width: 0;
+  padding-top: 73px;
+  transition: all 1.726s;
+  box-shadow: 0 1px 3px #000;
+}
+
+.section.grey {
+  background-color: #f5f6f7;
+}
+
+.section.grey.footer {
+  text-align: center;
+  background-color: #fff;
+  display: block;
+}
+
+.hero-iphone {
+  text-shadow: 0 0 #000;
+  margin-bottom: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logo-in-header {
+  float: left;
+  background-image: url('../images/52627495dc9143e2440001a5_3pmaster_logo_full.png');
+  margin-right: 12px;
+}
+
+.nav-link {
+  float: right;
+  color: #5c5c5c;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-right: 8px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-link:hover {
+  color: #5c5c5c;
+  border-bottom-style: solid;
+  border-bottom-color: #3c0;
+}
+
+.nav-link:focus {
+  border-bottom-style: solid;
+  border-bottom-color: #149132;
+}
+
+.nav-column {
+  padding-top: 30px;
+}
+
+.icon-title {
+  text-align: center;
+  background-image: none;
+  margin: 30px auto 12px;
+  display: block;
+}
+
+.organize-row {
+  float: left;
+  margin-top: 36px;
+}
+
+.subfooter-left {
+  padding-top: 6px;
+}
+
+.call-to-action {
+  float: left;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.center {
+  text-align: center;
+  position: relative;
+  transform: none;
+}
+
+.link-download {
+  margin-top: 15px;
+}
+
+.copyright {
+  color: gray;
+  text-align: right;
+  margin-top: 15px;
+  font-family: Open Sans, sans-serif;
+  display: block;
+}
+
+.fb {
+  width: 500px;
+  float: none;
+  text-align: left;
+  display: block;
+  position: relative;
+}
+
+.social-widget-wrapper {
+  float: left;
+  clear: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.flag {
+  float: right;
+  clear: none;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: block;
+}
+
+.grey-section {
+  background-color: rgba(211, 211, 211, .2);
+  margin-top: 34px;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+.h2-centered {
+  color: #000;
+  text-align: center;
+  margin-top: 34px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+.h3-app-name {
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+}
+
+.h4-app-description {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Open Sans, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.img-centered {
+  float: none;
+  clear: none;
+}
+
+.div-vert {
+  border-left: 1px solid #d3d3d3;
+}
+
+.heading-privacy {
+  margin-top: 0;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.white-section-privacy {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.paragraph-privacy {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.grey-section-privacy {
+  background-color: rgba(211, 211, 211, .2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list-item-privacy {
+  color: #000;
+  margin-top: 16px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.cella-app {
+  color: rgba(0, 0, 0, 0);
+  background-color: #fff;
+  padding: 15px;
+}
+
+.prices {
+  color: #000;
+  margin-top: 1px;
+  margin-bottom: 8px;
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.titolo {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 25px;
+  font-style: normal;
+}
+
+.colore-prezzo {
+  color: #489fd9;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.divisore {
+  height: 1px;
+  background-color: #dbdbdb;
+  margin: 10px 40px;
+}
+
+.features {
+  color: #000;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+}
+
+.colonna-apps {
+  padding: 20px;
+}
+
+.price-list {
+  color: #489fd9;
+  text-decoration: line-through;
+}
+
+.price-discounted {
+  color: #f23535;
+  font-weight: 600;
+}
+
+.blocco-apps {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.apps-section-title {
+  font-weight: 400;
+}
+
+.flic-header {
+  text-align: center;
+  font-weight: 300;
+}
+
+.div-small {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.buy-flic {
+  float: none;
+  clear: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: static;
+  overflow: visible;
+}
+
+.link-block-flic {
+  background-color: #cc242e;
+  border-radius: 28px;
+  padding: 5px 20px;
+  display: inline-block;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.image {
+  display: inline-block;
+}
+
+.centered-link {
+  display: block;
+}
+
+.text-span {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  h2 {
+    margin-top: 20px;
+  }
+
+  .button {
+    text-shadow: 0 2px rgba(0, 0, 0, .09);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: inset 0 1px rgba(255, 255, 255, .49), 0 2px #823c2e, 0 3px 12px rgba(0, 0, 0, .49);
+  }
+
+  .section {
+    border-bottom-style: none;
+    border-bottom-width: 0;
+  }
+
+  .section.hero {
+    background-image: url('../images/sfondo_4x4_sfocato-tablet.jpg');
+    background-size: cover;
+    padding-top: 34px;
+    padding-bottom: 1px;
+  }
+
+  .section.white {
+    box-shadow: none;
+    padding-top: 25px;
+  }
+
+  .hero-iphone {
+    text-shadow: 0 0 #000;
+    margin-bottom: auto;
+    padding-top: 10px;
+  }
+
+  .nav-column {
+    padding-top: 10px;
+    padding-right: 31px;
+  }
+
+  .icon-title {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .subfooter-left {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .center {
+    transform: none;
+  }
+
+  .link-download {
+    margin-top: 20px;
+  }
+
+  .flag {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .img-centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .list-item-privacy {
+    font-size: 14px;
+  }
+
+  .colonna-apps {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .blocco-apps {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .flic-image {
+    padding-top: 60px;
+  }
+
+  .flic-header {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .button {
+    text-shadow: 0 2px rgba(0, 0, 0, .09);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    margin-bottom: 50px;
+    box-shadow: inset 0 1px rgba(255, 255, 255, .49), 0 2px #823c2e, 0 3px 12px rgba(0, 0, 0, .49);
+  }
+
+  .section {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .section.hero {
+    text-align: center;
+    background-position: 0 48%;
+    margin-left: auto;
+  }
+
+  .section.white {
+    box-shadow: none;
+  }
+
+  .hero-iphone {
+    text-shadow: 0 0 #000;
+    margin-bottom: 1px;
+  }
+
+  .logo-in-header {
+    float: none;
+    text-shadow: 0 0 #000;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .nav-link {
+    float: right;
+    clear: none;
+    margin-left: 8px;
+  }
+
+  .nav-column {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .icon-title {
+    float: none;
+    margin: 2px auto;
+    padding-left: 0;
+    display: block;
+  }
+
+  .subfooter-left, .copyright {
+    text-align: center;
+  }
+
+  .fb {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .social-widget-wrapper {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .flag {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .div-vert {
+    border-top: 1px solid rgba(211, 211, 211, .49);
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .white-section {
+    padding-bottom: 15px;
+  }
+
+  .paragraph-privacy {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .list-item-privacy {
+    text-align: left;
+  }
+
+  .flic-image {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .div-small {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    float: none;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .button {
+    text-shadow: 0 2px rgba(0, 0, 0, .09);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: inset 0 1px rgba(255, 255, 255, .49), 0 2px #823c2e, 0 3px 12px rgba(0, 0, 0, .49);
+  }
+
+  .section {
+    text-align: center;
+  }
+
+  .section.hero {
+    background-position: 31% 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .section.white {
+    box-shadow: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-iphone, .logo-in-header {
+    text-shadow: 0 0 #000;
+  }
+
+  .nav-link {
+    float: right;
+    margin-left: 8px;
+  }
+
+  .nav-column {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    display: block;
+  }
+
+  .organize-row {
+    float: none;
+  }
+
+  .call-to-action {
+    padding-left: 0;
+    overflow: visible;
+  }
+
+  .white-section {
+    padding-bottom: 30px;
+  }
+
+  .paragraph-privacy {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+
