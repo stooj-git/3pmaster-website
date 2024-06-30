@@ -1048,6 +1048,15 @@ html.w-mod-js [data-ix="hide-on-load"] {
     max-width: 100%;
     max-height: none;
   }
+
+  .facebook {
+    text-align: left;
+  }
+
+  .x-twitter.center-contents {
+    text-align: left;
+    overflow: visible;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1095,6 +1104,10 @@ html.w-mod-js [data-ix="hide-on-load"] {
     min-width: 0;
     max-width: 100%;
     display: block;
+  }
+
+  .facebook, .x-twitter {
+    text-align: left;
   }
 }
 
